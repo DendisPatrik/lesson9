@@ -5,7 +5,6 @@ def merge_sort(cisla):
     stred = dlzka // 2
     lava = cisla[:stred]
     prava = cisla[stred:]
-    # Tu pridam daky komentar
     merge_sort(lava)
     merge_sort(prava)
     merge(lava, prava, cisla)
